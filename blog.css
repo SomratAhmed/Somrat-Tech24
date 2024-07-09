@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(socially_img/back-image.png
+);
+    background-position: center;
+    background-size: cover;
+    padding: 0px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    width: 140px;
+}
+
+nav {
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    list-style: none;
+    text-underline-offset: none;
+
+    nav ul li a {
+        display: inline-block;
+        list-style: none;
+        margin: 0 15px;
+        justify-content: space-between;
+
+    }
+
+}
+
+.content {
+    display: inline-block;
+    padding: 15px 80px;
+    font-size: 30px;
+    margin-top: 10%;
+
+}
+
+.features-img {
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    margin-bottom: 5%;
+
+}
+
+.btn {
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 20px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    border-top-right-radius: 30px;
+}
+
+.Skills {
+    text-align: center;
+    background-color: bisque;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Expertise {
+    display: inline-block;
+
+}
